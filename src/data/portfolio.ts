@@ -1,6 +1,9 @@
 import wildflowerImage from '@/images/wildflower-main-image.jpg'
 import techforingImage from '@/images/techforing.jpg'
+<<<<<<< HEAD
 import mumtoztourImage from '@/images/mumtoztour-main.jpg'
+=======
+>>>>>>> 455d971223111ac0f85242e99c7aa8e6520a429e
 
 /* ─── Types ──────────────────────────────────────────────────────────── */
 
@@ -70,6 +73,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+<<<<<<< HEAD
     id: 'mumtoz-tour',
     title: 'Mumtoz tour',
     description:
@@ -80,6 +84,17 @@ export const projects: Project[] = [
     status: 'In Progress',
     liveUrl: 'https://www.mumtoztour.com/',
     image: mumtoztourImage,
+=======
+    id: 'forma-ui',
+    title: 'Forma UI',
+    description:
+      'A composable component library for React — accessible by default, styleable via design tokens, with zero runtime dependencies.',
+    longDescription:
+      'Component library built with accessibility in mind. Every component follows WAI-ARIA guidelines and ships with dark mode support out of the box. Uses a design-token architecture for fully customizable theming.',
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Storybook', 'Radix UI'],
+    status: 'In Progress',
+    githubUrl: 'https://github.com/wegashix',
+>>>>>>> 455d971223111ac0f85242e99c7aa8e6520a429e
     gradient: 'from-emerald-500/10 via-teal-500/10 to-cyan-500/10',
     featured: true,
   },

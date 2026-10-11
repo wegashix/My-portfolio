@@ -1,11 +1,18 @@
 import { memo } from 'react'
 import { motion } from 'framer-motion'
+<<<<<<< HEAD
 import { ArrowRight, Github, Send } from 'lucide-react'
+=======
+import { ArrowRight, Github, Send, User } from 'lucide-react'
+>>>>>>> 455d971223111ac0f85242e99c7aa8e6520a429e
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import { useTranslation } from '@/i18n'
 import { renderBold } from '@/i18n/richText'
+<<<<<<< HEAD
 import portraitImage from '@/images/my-photo.jpg'
+=======
+>>>>>>> 455d971223111ac0f85242e99c7aa8e6520a429e
 
 const container = {
   hidden: {},
@@ -105,7 +112,19 @@ function HeroInner() {
                   width: 'clamp(240px, 36vw, 340px)',
                   height: 'clamp(300px, 45vw, 420px)',
                 }}>
+<<<<<<< HEAD
                 <img src={portraitImage} alt="Baratov Damir" className="h-full w-full object-cover object-[center_25%]" />
+=======
+                <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-[var(--surface)] to-[var(--surface-2)]">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[var(--surface-2)] border border-[var(--border)]">
+                    <User size={36} className="text-[var(--text-muted)]" strokeWidth={1.5} />
+                  </div>
+                  <div className="text-center px-6">
+                    <p className="text-xs font-medium text-[var(--text-muted)]">{t.hero.photoSoon}</p>
+                    <p className="mt-1 text-[10px] text-[var(--text-muted)] opacity-60">{t.hero.photoHint}</p>
+                  </div>
+                </div>
+>>>>>>> 455d971223111ac0f85242e99c7aa8e6520a429e
               </div>
 
               <div className="absolute -left-3 bottom-10 hidden sm:flex items-center gap-2 rounded-xl bg-[var(--bg)] px-3 py-2 shadow-[var(--shadow-sm)] border border-[var(--border)] animate-float-slow">
